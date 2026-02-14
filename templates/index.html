@@ -2,16 +2,21 @@
 <html>
 <head>
     <title>Ana Sayfa</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
-<a href="/">Ana Sayfa</a> |
-<a href="/hakkimda">Hakkımda</a> |
-<a href="/iletisim">İletişim</a>
-<hr>
+<div class="menu">
+  <a href="/">Ana Sayfa</a>
+  <a href="/hakkimda">Hakkımda</a>
+  <a href="/iletisim">İletişim</a>
+</div>
 
-<h1>Hoş geldin</h1>
-<p>Benim web sitem</p>
+<div class="container">
+  <h1>Hoş geldiniz</h1>
+  <p>Bu benim sitem.</p>
+</div>
 
 </body>
+
 </html>
