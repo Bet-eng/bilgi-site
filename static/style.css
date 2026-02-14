@@ -1,27 +1,28 @@
 body {
-    background-color: #f2f2f2;
+    background-color: #f5f5dc; /* bej arka plan */
     font-family: Arial, sans-serif;
-}
-
-h1 {
-    color: #2c3e50;
-    text-align: center;
-}
-
-p {
-    font-size: 18px;
-    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
 }
 
 .menu {
-    background-color: #3498db;
-    padding: 10px;
-    text-align: center;
+    background-color: #800020; /* bordo */
+    padding: 15px;
 }
 
 .menu a {
-    color: white;
-    margin: 10px;
+    color: black; /* yazılar siyah */
+    margin-right: 20px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 20px;
 }
